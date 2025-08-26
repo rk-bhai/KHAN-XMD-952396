@@ -10,7 +10,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "IK~Ve0UVA5Z#mscs0Q8CJsUUykoe-p59J_O4-ClywBEOB_lZLQPJ5kE",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "IK~ZSEHjBja#_98DsWGyfmr7xI9wlg_3qrxhR8hBB_E-LchLRhtThnk",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "on", // on/off chat bot 
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "KHAN-MD",  // Bot's display name
@@ -31,8 +31,8 @@ module.exports = {
     READ_MESSAGE: process.env.READ_MESSAGE || "true",          // Mark messages as read automatically?
     REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
     // ===== REACTION & STICKER SETTINGS =====
-    AUTO_REACT: process.env.AUTO_REACT || "true",              // Auto-react to messages?
-    OWNER_REACT: process.env.OWNER_REACT || "true",              // Auto-react to messages?
+    AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
+    OWNER_REACT: process.env.OWNER_REACT || "false",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "true",          // Use custom emoji reactions?
     CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // set custom reacts
     STICKER_NAME: process.env.STICKER_NAME || "ᴋʜᴀɴ-ᴍᴅ",     // Sticker pack name
